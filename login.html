@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>Log In</title>
+    	<link rel="stylesheet" href="css/bootstrap.min.css">
+    	<link rel="stylesheet" href="css/loginStyle.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="loginForm">
+				<div class="loginIcon text-center">
+					<span class="glyphicon glyphicon-log-in"></span>
+				</div>
+				<form action="/login" method="POST">
+					<div class="form-group">
+						<input type="text" class="form-control" name="loginEmail" placeholder="Email">
+					</div>
+					<br>
+					<div class="form-group">
+						<input type="text" class="form-control" name="loginEmail" placeholder="Password">
+					</div>
+					<br>
+					<div class="form-group">
+						<input type="submit" class="btn btn-block loginBtn" value="Login">
+					</div>
+					<br>
+					<div class="form-group text-center">
+						<a href="#forgotPassword.html"><small>Forgot your email or password?</small></a>
+					</div>
+					
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
